@@ -31,5 +31,10 @@ class Player(GameSprite):
            self.rect.y += self.speed
 
 game = True
+
+ball = GameSprite("ball.png", 10, 10, 10, 5, 5)
+speed_x = 3
+speed_y = 3
+
 while game:
    display.update()
